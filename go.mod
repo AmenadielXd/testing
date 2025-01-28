@@ -3,7 +3,6 @@ module github.com/divideprojects/Alita_Robot
 // +heroku goVersion go1.19
 go 1.19
 
-# toolchain go1.22.5
 
 require (
 	github.com/PaulSonOfLars/gotg_md2html v0.0.0-20240605215313-a6fdd2445f54
