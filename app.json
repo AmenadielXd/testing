@@ -16,92 +16,6 @@
     "BOT_TOKEN": {
       "description": "Your telegram bot token, get from @Botfather in telegram.",
       "required": true
-      "value": ""
-    },
-    "BOT_VERSION": {
-      "description": "Version of your bot.",
-      "required": true
-      "value": ""
-    },
-    "DB_URI": {
-      "description": "Your MongoDB connection string.",
-      "required": true
-      "value": ""
-    },
-    "DB_NAME": {
-      "description": "Your MongoDB database name.",
-      "required": true
-      "value": ""
-    },
-    "OWNER_ID": {
-      "description": "Your user ID as an integer.",
-      "required": true
-      "value": ""
-    },
-    "MESSAGE_DUMP": {
-      "description": "Event logs channel where bot will send updates. Starts with -100",
-      "required": true
-      "value": ""
-    },
-    "ENABLED_LOCALES": {
-      "description": "Locales enabled for your bot.",
-      "required": true
-      "value": ""
-    },
-    "REDIS_ADDRESS": {
-      "description": "Address for your Redis instance.",
-      "required": true
-      "value": ""
-    },
-    "REDIS_PASSWORD": {
-      "description": "Password for your Redis instance.",
-      "required": true
-      "value": ""
-    },
-    "USE_WEBHOOKS": {
-      "description": "Whether to use webhooks or not.",
-      "required": true
-      "value": ""
-    }
-  },
-  "buildpacks": [
-    {
-      "url": "heroku/go"
-    }
-  ],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "eco"
-    }
-  }
-}
-
-
-
-
-
-
-
-"""
-{
-  "name": "Alita_Robot",
-  "description": "Alita is a Telegram Group management bot made using gotgbot and Go, which makes it modern and faster than most of the Telegram chat managers.",
-  "keywords": [
-    "telegram bot",
-    "group bot",
-    "group",
-    "manager",
-    "alita",
-    "alita_robot"
-  ],
-  "repository": "https://github.com/AmenadielXd/testing",
-  "website": "https://divkix.me",
-  "success_url": "https://t.me/DivideProjects",
-  "env": {
-    "BOT_TOKEN": {
-      "description": "Your telegram bot token, get from @Botfather in telegram.",
-      "required": true
     },
     "BOT_VERSION": {
       "description": "Version of your bot.",
@@ -152,4 +66,3 @@
     }
   }
 }
-"""
