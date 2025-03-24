@@ -2,7 +2,7 @@ module github.com/divideprojects/Alita_Robot
 
 // +heroku goVersion go1.19
 go 1.19
-
+toolchain go1.24.1
 
 require (
 	github.com/PaulSonOfLars/gotg_md2html v0.0.0-20240605215313-a6fdd2445f54
@@ -17,7 +17,7 @@ require (
 	github.com/redis/go-redis/v9 v9.7.0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/viper v1.19.0
-	go.mongodb.org/mongo-driver v1.17.2
+	go.mongodb.org/mongo-driver v1.17.3
 	golang.org/x/text v0.21.0
 )
 
